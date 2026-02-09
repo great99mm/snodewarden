@@ -1,0 +1,13 @@
+name = "snodewarden"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# KV Namespace for storing vault data
+[[kv_namespaces]]
+binding = "VAULT"
+id = "d4be6cd99d2d4c41a302de8b7e2fdb82"
+
+# R2 Bucket for storing attachments
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "nodewarden-attachments"
